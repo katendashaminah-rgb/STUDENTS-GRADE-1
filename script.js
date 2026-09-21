@@ -1,25 +1,28 @@
 const studentName = "Shaminah";
-const marks = 60;
-function calculateGrade(name, score) {
+const marks = 70;
+function calculateGrade(studentname, score) {
 
     if (score >= 80) {
-        return name + " got Grade A";
+        return studentname + " got Grade A";
     }
     else if (score >= 70) {
-        return name + " got Grade B";
+        return studentname + " got Grade B";
     }
     else if (score >= 60) {
-        return name + " got Grade C";
+        return studentname + " got Grade C";
     }
     else if (score >= 50) {
-        return name + " got Grade D";
+        return studentname + " got Grade D";
     }
     else {
-        return name + " has failed";
+        return studentname + " has failed";
     }
 }
 const result = calculateGrade(studentName, marks);
 console.log("Hello Shaminah ");
+document.write("Hello Shaminah ")
 console.log(studentName);
-console.log(60 );
+document.write("Hello Shaminah ");
+console.log(70 );
+document.write("Hello Shaminah ");
 console.log(result);
